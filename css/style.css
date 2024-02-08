@@ -80,34 +80,36 @@ li a {
 /* JUEGOS (MAIN) */
 
 
-.conteiner-home{
+.conteiner-home {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     align-items: start;
     width: 100%;
     padding: 2% 6%;
+    /* border-bottom: 1px solid rgb(216, 214, 214); */
 }
 
-.conteiner-home-img{
-    width: 65%;
-    height: 300px;
+.conteiner-home-img {
+    width: 60%;
+    height: 250px;
 }
 
-.conteiner-home-img img{
+.conteiner-home-img img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
 
-.home{
+.home {
     text-align: left;
     width: 40%;
     padding-right: 5%;
 }
 
-.home-link li{
+.home-link li {
     list-style: initial;
+    padding-top: 1%;
 }
 
 
@@ -117,7 +119,67 @@ li a {
 
 /* tarjetas (MAIN) */
 
-.tarjetas_juegos {
+.conteiner-cards-home {
+    padding: 0 7%;
+    margin-bottom: 3%;
+}
+
+.conteiner-card-home {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(216, 214, 214);
+    margin-right: 8%;
+    margin-top: 3%;
+    border-radius: 30px;
+    width: 100%;
+    flex-wrap: nowrap;
+    /* align-items: center; */
+}
+
+.conteiner-card-home-img {
+    width: 30%;
+    height: 270px;
+}
+
+.conteiner-card-home-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.border-right img {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.border-left img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.conteiner-card-home-text {
+    width: 70%;
+    padding: 2% 10%;
+    /* display: flex;
+    flex-wrap: wrap;
+    flex-direction: column; */
+}
+
+.conteiner-card-home-text h3 {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 3%;
+}
+
+.conteiner-card-home-text p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+
+/* .tarjetas_juegos {
     display: inline-block;
     width: 100%;
     padding-top: 30px;
@@ -163,12 +225,7 @@ li a {
     font-size: 40px;
     padding-left: 20px;
     color: aliceblue;
-}
-
-/* p {
-    font-size: 40px;
-} */
-
+} 
 
 .espacio_Máquinas_tragamonedas {
     display: inline-block;
@@ -179,80 +236,7 @@ li a {
     display: inline-block;
     padding-top: 70px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-/* GASTRONOMÍA (tarjetas verticales) */
-
-/* .tarjetas_gastronomia {
-    padding: 30px;
-    text-align: center;
-}
-
-.contenedor_tarjeta_gastronomia {
-    display: inline-block;
-    border: 5px solid black;
-    background-color: bisque;
-    margin-left: 20px;
-    margin-right: 20px;
-    width: 15%;
-    height: 800px;
-    border-radius: 30px;
-}
-
-
-.foto_tarjeta_gastronomia {
-    display: inline-block;
-    height: 35%;
-    width: 100%;
-}
-
-
-.foto_tarjeta_gastronomia img {
-    width: 100%;
-    height: 100%;
-    border-top-left-radius: 20px;
-    border-top-right-radius: 20px;
-}
-
-.texto_tarjeta_gastronomia {
-    display: inline-block;
-    padding: 20px 30px;
-    text-align: left;
-    width: 100%;
-}
-
-.texto_tarjeta_gastronomia h2 {
-    font-size: 45px;
-    padding-bottom: 20px;
-}
-
-.texto_tarjeta_gastronomia p {
-    font-size: 35px;
-}
-
-.enlace_ver_mas {
-    text-align: right;
-    position: relative;
-    top: 110px;
-}
-
-
-
-.enlace_ver_mas a {
-    font-size: 23px;
-
-} */
-
+*/
 
 
 /* CONTACTO */
@@ -704,14 +688,42 @@ li {
         ;
     }
 
-    .box-gastronomia{
+    .box-gastronomia {
         padding: 6% 0;
+    }
+
+    /* .conteiner-card-home-img {
+        height: 300px;
+    } */
+
+    .conteiner-card-home-text h3 {
+        font-size: 30px;
+    }
+
+    .conteiner-card-home-text p {
+        font-size: 20px;
+    }
+
+    .home-title {
+        font-size: 36px;
+    }
+
+    .home-link li {
+        font-size: 20px;
+    }
+
+    .home {
+        width: 50%;
+    }
+
+    .menu_lateral {
+        bottom: 80px;
     }
 }
 
 
 
-@media (max-width: 768px) {
+@media (max-width: 800px) {
 
     h1 {
         font-size: 40px;
@@ -745,12 +757,61 @@ li {
         ;
     }
 
+    /* .menu_lateral {
+        width: 30px;
+        position: fixed;
+        left: 0px;
+    }
+    
+    .menu_lateral a img {
+        width: 30px;
+        padding-bottom: 10px;
+    } */
+
     .conteiner_texto p {
         font-size: 20px;
     }
 
     .grid-conteiner-gastronomia {
         display: block;
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+
+    .conteiner-cards-home {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+    .conteiner-home-img {
+        height: 310px;
+    }
+
+    .conteiner-card-home-img {
+        height: 300px;
+        width: 100%;
+    }
+
+    .conteiner-card-home {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .conteiner-card-home-text {
+        width: 100%;
+    }
+
+    .change-order {
+        order: 1;
+    }
+
+    .border-img-home img{
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 0;
+
     }
 }
 
@@ -773,4 +834,8 @@ li {
             'a7'
         ;
     }
+
+    /* .conteiner-card-home-img {
+        height: 400px;
+    } */
 }
