@@ -341,8 +341,8 @@ textarea {
 }
 
 .tarjeta_novedades {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 4%;
+    padding-bottom: 4%;
 }
 
 .fecha {
@@ -350,11 +350,12 @@ textarea {
     font-size: 25px;
     text-align: right;
     font-style: italic;
+    margin-bottom: 0;
 }
 
 .texto_tarjeta_novedades h3 {
     font-size: 40px;
-    padding-bottom: 10px;
+    padding-bottom: 1%;
 }
 
 .texto_tarjeta_novedades p {
@@ -757,16 +758,13 @@ li {
         ;
     }
 
-    /* .menu_lateral {
-        width: 30px;
-        position: fixed;
-        left: 0px;
+    .menu_lateral {
+        width: 35px;
     }
     
     .menu_lateral a img {
-        width: 30px;
-        padding-bottom: 10px;
-    } */
+        width: 35px;
+    }
 
     .conteiner_texto p {
         font-size: 20px;
@@ -813,6 +811,16 @@ li {
         border-top-left-radius: 0;
 
     }
+
+    .texto_tarjeta_novedades h3 {
+        font-size: 28px;
+    }
+    .texto_tarjeta_novedades p {
+        font-size: 18px;
+    }
+    .fecha {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 600px) {
@@ -838,4 +846,10 @@ li {
     /* .conteiner-card-home-img {
         height: 400px;
     } */
+    .texto_tarjeta_novedades p {
+        text-align: justify;
+    }
+    .fecha {
+        text-align: left;
+    }
 }
