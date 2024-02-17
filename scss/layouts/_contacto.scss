@@ -1,0 +1,90 @@
+/* CONTACTO */
+
+.formulario {
+    padding-left: 20%;
+    padding-right: 20%;
+    text-align: left;
+    padding-bottom: 70px;
+}
+
+form {
+    text-align: center;
+    padding-left: 7%;
+}
+
+.contacto {
+    display: inline-block;
+    width: 100%;
+}
+
+.nombre_apellido {
+    display: inline-block;
+    width: 49%;
+    text-align: left;
+}
+
+.input_nombre {
+    width: 80%;
+}
+
+.email {
+    text-align: left;
+}
+
+
+.input_email {
+    width: 90%;
+}
+
+form div {
+    margin-top: 30px;
+}
+
+
+.mensaje {
+    text-align: left;
+}
+
+
+
+
+.terminos_y_condiciones {
+    text-align: left;
+}
+
+.terminos_y_condiciones label {
+    display: inline-block;
+}
+
+
+
+label {
+    display: block;
+    text-align: left;
+    font-size: 25px;
+}
+
+input {
+    font-size: 25px;
+}
+
+textarea {
+    width: 90%;
+    font-size: 25px;
+}
+
+.boton_enviar {
+    text-align: left;
+    margin-top: 0;
+}
+
+.contenedor_botton_enviar {
+    display: inline-block;
+    width: 90%;
+    height: 35px;
+}
+
+.contenedor_botton_enviar button {
+    width: 100%;
+    height: 100%;
+}

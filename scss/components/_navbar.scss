@@ -1,0 +1,48 @@
+
+/* HEADER */
+
+.backgroung {
+    background-color: bisque;
+}
+
+.backgroung_boton {
+    background-color: white;
+}
+
+.d-flex {
+    padding-left: 0;
+}
+
+
+
+
+li a:hover {
+    background-color: rgb(250, 238, 224);
+    color: white;
+    border: 1px solid black;
+}
+
+.conteiner_nav {
+    padding: 0 5%;
+}
+
+
+header {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+
+
+.nav_link {
+    text-decoration: none;
+    color: black;
+}
+
+li a {
+    font-size: 25px;
+}

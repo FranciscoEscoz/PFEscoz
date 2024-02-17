@@ -1,0 +1,114 @@
+/* JUEGOS (MAIN) */
+
+
+.conteiner-home {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: start;
+    width: 100%;
+    padding: 2% 6%;
+}
+
+.conteiner-home-img {
+    width: 60%;
+    height: 250px;
+}
+
+.conteiner-home-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.home {
+    text-align: left;
+    width: 40%;
+    padding-right: 5%;
+}
+
+.home-link li {
+    list-style: initial;
+    padding-top: 1%;
+}
+
+
+
+
+
+
+/* tarjetas (MAIN) */
+
+.conteiner-cards-home {
+    padding: 0 7%;
+    margin-bottom: 3%;
+}
+
+.conteiner-card-home {
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(216, 214, 214);
+    margin-right: 8%;
+    margin-top: 3%;
+    border-radius: 30px;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.conteiner-card-home-img {
+    width: 30%;
+    height: 270px;
+}
+
+.conteiner-card-home-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.border-right img {
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+.border-left img {
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+.conteiner-card-home-text {
+    width: 70%;
+    padding: 2% 10%;
+}
+
+.conteiner-card-home-text h3 {
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 3%;
+}
+
+.conteiner-card-home-text p {
+    font-size: 25px;
+    text-align: justify;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

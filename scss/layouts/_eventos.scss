@@ -1,0 +1,73 @@
+/* Eventos */
+
+.grid-conteiner-eventos {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 0 6%;
+    padding: 2% 12% 0 12%;
+    grid-template-areas:
+        'titulo titulo titulo'
+        'card-evento-1 card-evento-2 card-evento-3'
+        'texto texto texto'
+    ;
+}
+
+
+.box-eventos {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 2% 0;
+}
+
+
+
+.e1 {
+    grid-area: titulo;
+}
+
+.e2 {
+    grid-area: card-evento-1;
+}
+
+.e3 {
+    grid-area: card-evento-2;
+}
+
+.e4 {
+    grid-area: card-evento-3;
+}
+
+.e5 {
+    grid-area: texto;
+}
+
+
+.repetitivo {
+    padding: 1% 5%;
+    display: block;
+    text-align: center;
+}
+
+.repetitivo h1 {
+    padding-bottom: 10px;
+}
+
+.repetitivo p {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    color: rgb(169, 215, 253);
+}
+
+
+
+
+.conteiner_texto p {
+    font-size: 25px;
+    align-items: center;
+}

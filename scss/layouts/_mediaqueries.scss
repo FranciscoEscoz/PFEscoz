@@ -1,0 +1,230 @@
+/* Media Queries */
+
+
+@media (max-width: 1400px) {
+    .grid-conteiner-eventos {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        padding-bottom: 4%;
+        grid-template-areas:
+            'titulo titulo'
+            'card-evento-1 card-evento-2'
+            'card-evento-3 texto'
+        ;
+        padding-left: 20%;
+        padding-right: 20%;
+    }
+
+    .card-title {
+        font-size: 28px;
+        width: 100%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .conteiner_texto p {
+        font-size: 23px;
+    }
+
+    .grid-conteiner-gastronomia {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        gap: 0 10%;
+        padding: 2% 10% 8% 10%;
+        grid-template-areas:
+            'titulo titulo'
+            'card-gastronomia-1 card-gastronomia-2' 'card-gastronomia-3 card-gastronomia-4'
+
+        ;
+    }
+
+    .box-gastronomia {
+        padding: 6% 0;
+    }
+
+    .conteiner-card-home-text h3 {
+        font-size: 30px;
+    }
+
+    .conteiner-card-home-text p {
+        font-size: 20px;
+    }
+
+    .home-title {
+        font-size: 36px;
+    }
+
+
+    .home {
+        width: 50%;
+    }
+
+    .menu_lateral {
+        bottom: 80px;
+    }
+}
+
+
+
+@media (max-width: 800px) {
+
+    h1 {
+        font-size: 40px;
+    }
+
+    .grid-conteiner-eventos {
+        display: block;
+    }
+
+    .box-eventos {
+        padding: 3%;
+    }
+
+
+    .repetitivo p {
+        font-size: 20px;
+    }
+
+    .grid-conteiner_footer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 100px;
+        gap: 1% 3%;
+        padding: 0 8%;
+        margin-bottom: 2%;
+        grid-template-areas:
+            'a1 a1'
+            'a2 a3'
+            'a5 a6'
+            'a4 a7'
+        ;
+    }
+
+    .menu_lateral {
+        width: 35px;
+    }
+
+    .menu_lateral a img {
+        width: 35px;
+    }
+
+    .conteiner_texto p {
+        font-size: 20px;
+    }
+
+    .grid-conteiner-gastronomia {
+        display: block;
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+
+    .conteiner-cards-home {
+        padding-left: 12%;
+        padding-right: 12%;
+    }
+
+    .conteiner-home-img {
+        height: 310px;
+    }
+
+    .conteiner-card-home-img {
+        height: 300px;
+        width: 100%;
+    }
+
+    .conteiner-card-home {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 5%;
+    }
+
+    .conteiner-card-home-text {
+        width: 100%;
+    }
+
+    .change-order {
+        order: 1;
+    }
+
+    .border-img-home img {
+        border-bottom-left-radius: 30px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 30px;
+        border-top-left-radius: 0;
+
+    }
+
+    .texto_tarjeta_novedades h3 {
+        font-size: 28px;
+    }
+
+    .texto_tarjeta_novedades p {
+        font-size: 18px;
+    }
+
+    .fecha {
+        font-size: 15px;
+    }
+
+    .conteiner-home-img {
+        height: 260px;
+    }
+
+    .conteiner-card-home-text h3 {
+        font-size: 25px;
+    }
+
+    .conteiner-card-home-text p {
+        font-size: 18px;
+    }
+
+    .home-title {
+        font-size: 30px;
+    }
+
+    li a {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 600px) {
+
+    .grid-conteiner_footer {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: 100px;
+        gap: 1% 3%;
+        padding: 2% 16%;
+        margin-bottom: 3%;
+        grid-template-areas:
+            'a1'
+            'a2'
+            'a3'
+            'a5'
+            'a6'
+            'a4'
+            'a7'
+        ;
+    }
+
+    .texto_tarjeta_novedades p {
+        text-align: justify;
+    }
+
+    .fecha {
+        text-align: left;
+    }
+
+    .conteiner-cards-home {
+        padding-left: 14%;
+        padding-right: 14%;
+    }
+
+    .nav_link {
+        text-align: center;
+    }
+}
