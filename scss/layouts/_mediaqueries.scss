@@ -58,7 +58,7 @@
     }
 
 
-    .home {
+    .conteiner-home {
         width: 50%;
     }
 
@@ -255,8 +255,14 @@
         text-align: center;
     }
 
-
     .box a{
         margin: 3px;
+    }
+.home-title{
+    font-size: 30px;
+    text-align: center;
+}
+    .nav_link{
+        font-size: 15px;
     }
 }

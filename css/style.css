@@ -359,7 +359,7 @@ h1 {
 }
 
 /* JUEGOS (MAIN) */
-.conteiner-home {
+.home {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
@@ -368,21 +368,19 @@ h1 {
   padding: 2% 6%;
 }
 
+.conteiner-home {
+  text-align: left;
+  width: 40%;
+  padding-right: 5%;
+}
 .conteiner-home-img {
   width: 60%;
   height: 250px;
 }
-
 .conteiner-home-img img {
   width: 100%;
   height: 100%;
   object-fit: cover;
-}
-
-.home {
-  text-align: left;
-  width: 40%;
-  padding-right: 5%;
 }
 
 .home-link li {
@@ -391,11 +389,10 @@ h1 {
 }
 
 /* tarjetas (MAIN) */
-.conteiner-cards-home {
+.conteiner-card {
   padding: 0 7%;
   margin-bottom: 3%;
 }
-
 .conteiner-card-home {
   display: flex;
   flex-direction: row;
@@ -406,16 +403,27 @@ h1 {
   width: 100%;
   flex-wrap: nowrap;
 }
-
 .conteiner-card-home-img {
   width: 30%;
   height: 270px;
 }
-
 .conteiner-card-home-img img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+}
+.conteiner-card-home-text {
+  width: 70%;
+  padding: 2% 10%;
+}
+.conteiner-card-home-text h3 {
+  text-align: center;
+  font-size: 35px;
+  padding-bottom: 3%;
+}
+.conteiner-card-home-text p {
+  font-size: 25px;
+  text-align: justify;
 }
 
 .border-right img {
@@ -426,22 +434,6 @@ h1 {
 .border-left img {
   border-top-left-radius: 30px;
   border-bottom-left-radius: 30px;
-}
-
-.conteiner-card-home-text {
-  width: 70%;
-  padding: 2% 10%;
-}
-
-.conteiner-card-home-text h3 {
-  text-align: center;
-  font-size: 35px;
-  padding-bottom: 3%;
-}
-
-.conteiner-card-home-text p {
-  font-size: 25px;
-  text-align: justify;
 }
 
 /* NOVEDADES */
@@ -511,7 +503,7 @@ h1 {
   .home-title {
     font-size: 36px;
   }
-  .home {
+  .conteiner-home {
     width: 50%;
   }
   .menu_lateral {
@@ -653,6 +645,13 @@ h1 {
   }
   .box a {
     margin: 3px;
+  }
+  .home-title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .nav_link {
+    font-size: 15px;
   }
 }
 
