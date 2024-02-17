@@ -87,7 +87,6 @@ li a {
     align-items: start;
     width: 100%;
     padding: 2% 6%;
-    /* border-bottom: 1px solid rgb(216, 214, 214); */
 }
 
 .conteiner-home-img {
@@ -133,7 +132,6 @@ li a {
     border-radius: 30px;
     width: 100%;
     flex-wrap: nowrap;
-    /* align-items: center; */
 }
 
 .conteiner-card-home-img {
@@ -161,9 +159,6 @@ li a {
 .conteiner-card-home-text {
     width: 70%;
     padding: 2% 10%;
-    /* display: flex;
-    flex-wrap: wrap;
-    flex-direction: column; */
 }
 
 .conteiner-card-home-text h3 {
@@ -179,64 +174,6 @@ li a {
 
 
 
-/* .tarjetas_juegos {
-    display: inline-block;
-    width: 100%;
-    padding-top: 30px;
-    background-color: rgb(27, 14, 14);
-}
-
-.contenedor_tarjetas {
-    display: inline-block;
-    height: 300px;
-    width: 100%;
-    padding: 20px 130px;
-}
-
-.contenedor_imagen_tarjeta {
-    display: inline-block;
-    height: 80%;
-    width: 45%;
-}
-
-.contenedor_imagen_tarjeta img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    padding: 35px 20px;
-}
-
-.contenedor_texto_home {
-    display: inline-block;
-    width: 50%;
-    position: relative;
-    bottom: 20%;
-}
-
-.contenedor_texto_home p {
-    font-size: 30px;
-    text-align: justify;
-    padding-left: 20px;
-    padding-right: 20px;
-    color: aliceblue;
-}
-
-.contenedor_tarjetas h3 {
-    font-size: 40px;
-    padding-left: 20px;
-    color: aliceblue;
-} 
-
-.espacio_Máquinas_tragamonedas {
-    display: inline-block;
-    padding-top: 40px;
-}
-
-.espacio_juegos {
-    display: inline-block;
-    padding-top: 70px;
-}
-*/
 
 
 /* CONTACTO */
@@ -637,11 +574,6 @@ footer {
 
 
 
-/* se puede sacar mas adelante */
-
-li {
-    list-style: none;
-}
 
 
 
@@ -692,10 +624,6 @@ li {
     .box-gastronomia {
         padding: 6% 0;
     }
-
-    /* .conteiner-card-home-img {
-        height: 300px;
-    } */
 
     .conteiner-card-home-text h3 {
         font-size: 30px;
@@ -863,9 +791,6 @@ li {
         ;
     }
 
-    /* .conteiner-card-home-img {
-        height: 400px;
-    } */
     .texto_tarjeta_novedades p {
         text-align: justify;
     }
