@@ -130,6 +130,23 @@ li a {
   padding-bottom: 10px;
 }
 
+.repetitivo {
+  padding: 1% 5%;
+  display: block;
+  text-align: center;
+}
+.repetitivo h1 {
+  padding-bottom: 10px;
+}
+.repetitivo p {
+  font-size: 30px;
+}
+
+h1 {
+  font-size: 50px;
+  color: rgb(169, 215, 253);
+}
+
 /* CONTACTO */
 .formulario {
   padding-left: 20%;
@@ -230,6 +247,10 @@ textarea {
   align-items: center;
   margin: 2% 0;
 }
+.box-eventos-texto p {
+  font-size: 25px;
+  align-items: center;
+}
 
 .e1 {
   grid-area: titulo;
@@ -249,30 +270,6 @@ textarea {
 
 .e5 {
   grid-area: texto;
-}
-
-.repetitivo {
-  padding: 1% 5%;
-  display: block;
-  text-align: center;
-}
-
-.repetitivo h1 {
-  padding-bottom: 10px;
-}
-
-.repetitivo p {
-  font-size: 30px;
-}
-
-h1 {
-  font-size: 50px;
-  color: rgb(169, 215, 253);
-}
-
-.conteiner_texto p {
-  font-size: 25px;
-  align-items: center;
 }
 
 /* GASTRONOMÍA */
@@ -472,7 +469,7 @@ h1 {
   h2 {
     text-align: center;
   }
-  .conteiner_texto p {
+  .box-eventos-texto p {
     font-size: 23px;
   }
   .grid-conteiner-gastronomia {
@@ -537,7 +534,7 @@ h1 {
   .menu_lateral a img {
     width: 35px;
   }
-  .conteiner_texto p {
+  .box-eventos-texto p {
     font-size: 20px;
   }
   .grid-conteiner-gastronomia {
