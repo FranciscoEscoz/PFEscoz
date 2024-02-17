@@ -159,6 +159,9 @@ form {
   text-align: center;
   padding-left: 7%;
 }
+form div {
+  margin-top: 30px;
+}
 
 .contacto {
   display: inline-block;
@@ -171,20 +174,16 @@ form {
   text-align: left;
 }
 
-.input_nombre {
-  width: 80%;
-}
-
 .email {
   text-align: left;
 }
 
-.input_email {
-  width: 90%;
+.input-nombre {
+  width: 80%;
 }
 
-form div {
-  margin-top: 30px;
+.input-email {
+  width: 90%;
 }
 
 .mensaje {
@@ -194,7 +193,6 @@ form div {
 .terminos_y_condiciones {
   text-align: left;
 }
-
 .terminos_y_condiciones label {
   display: inline-block;
 }
@@ -224,7 +222,6 @@ textarea {
   width: 90%;
   height: 35px;
 }
-
 .contenedor_botton_enviar button {
   width: 100%;
   height: 100%;
@@ -498,7 +495,7 @@ textarea {
   .menu_lateral {
     bottom: 80px;
   }
-  .input_nombre {
+  .input-nombre {
     width: 90%;
   }
   .nombre_apellido {
