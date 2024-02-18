@@ -26,6 +26,10 @@ h3 {
   color: rgb(169, 215, 253);
 }
 
+h2 {
+  color: rgb(169, 215, 253);
+}
+
 p {
   color: rgba(255, 255, 255, 0.935);
 }
@@ -450,7 +454,7 @@ main {
   width: 70%;
   padding: 2% 10%;
 }
-.conteiner-card-home-text h3 {
+.conteiner-card-home-text h2 {
   text-align: center;
   font-size: 35px;
   padding-bottom: 3%;
@@ -479,7 +483,7 @@ main {
   padding-top: 4%;
   padding-bottom: 4%;
 }
-.tarjeta-novedades-texto h3 {
+.tarjeta-novedades-texto h2 {
   font-size: 40px;
   padding-bottom: 1%;
 }
@@ -501,8 +505,8 @@ main {
     grid-template-rows: auto;
     padding-bottom: 4%;
     grid-template-areas: "titulo titulo" "card-evento-1 card-evento-2" "card-evento-3 texto";
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 15%;
+    padding-right: 15%;
   }
   .card-title {
     font-size: 28px;
@@ -525,7 +529,7 @@ main {
   .box-gastronomia {
     padding: 6% 0;
   }
-  .conteiner-card-home-text h3 {
+  .conteiner-card-home-text h2 {
     font-size: 30px;
   }
   .conteiner-card-home-text p {
@@ -613,7 +617,7 @@ main {
     border-bottom-right-radius: 30px;
     border-top-left-radius: 0;
   }
-  .tarjeta-novedades-texto h3 {
+  .tarjeta-novedades-texto h2 {
     font-size: 28px;
   }
   .tarjeta-novedades-texto p {
@@ -625,7 +629,7 @@ main {
   .conteiner-home-img {
     height: 260px;
   }
-  .conteiner-card-home-text h3 {
+  .conteiner-card-home-text h2 {
     font-size: 25px;
   }
   .conteiner-card-home-text p {
