@@ -553,6 +553,10 @@ main {
   }
 }
 @media (max-width: 800px) {
+  .conteiner-card {
+    padding-left: 10%;
+    padding-right: 10%;
+  }
   h1 {
     font-size: 40px;
   }
@@ -653,6 +657,10 @@ main {
   }
 }
 @media (max-width: 600px) {
+  .conteiner-card {
+    padding-left: 14%;
+    padding-right: 14%;
+  }
   .grid-conteiner_footer {
     display: grid;
     grid-template-columns: auto;
