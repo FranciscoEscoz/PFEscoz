@@ -1,5 +1,8 @@
 /* JUEGOS (MAIN) */
 
+main{
+    background-color: rgb(0, 0, 0);
+}
 
 .home {
     display: flex;
@@ -31,6 +34,15 @@
 .home-link li {
     list-style: initial;
     padding-top: 1%;
+    color: rgb(17, 0, 255);
+}
+
+.nav-link a{
+    color: white;
+}
+
+.home-link li a:hover {
+    text-decoration: underline;
 }
 
 
@@ -39,7 +51,7 @@
 
 .conteiner-card {
     padding: 0 7%;
-    margin-bottom: 3%;
+    padding-bottom: 3%;
 
     &-home {
         display: flex;
@@ -50,6 +62,7 @@
         border-radius: 30px;
         width: 100%;
         flex-wrap: nowrap;
+        background-color: rgb(0, 1, 33);
     
         &-img {
             width: 30%;

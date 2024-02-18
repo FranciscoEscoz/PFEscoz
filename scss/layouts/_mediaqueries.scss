@@ -28,6 +28,8 @@
         font-size: 23px;
     }
 
+
+
     .grid-conteiner-gastronomia {
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -264,5 +266,9 @@
 }
     .nav_link{
         font-size: 15px;
+    }
+
+    .card-eventos-body p{
+        font-size: 22px;
     }
 }
