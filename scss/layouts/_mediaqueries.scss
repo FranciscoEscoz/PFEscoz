@@ -24,7 +24,7 @@
         text-align: center;
     }
 
-    
+
     .box-eventos-texto p {
         font-size: 23px;
     }
@@ -69,7 +69,7 @@
         bottom: 80px;
     }
 
-    .input-nombre{
+    .input-nombre {
         width: 90%;
     }
 
@@ -83,7 +83,7 @@
 
 @media (max-width: 800px) {
 
-    .conteiner-card{
+    .conteiner-card {
         padding-left: 10%;
         padding-right: 10%;
     }
@@ -213,18 +213,18 @@
         padding-right: 6%;
     }
 
-    label{
+    label {
         font-size: 20px;
     }
 
-    input{
+    input {
         font-size: 19px;
     }
 }
 
 @media (max-width: 600px) {
 
-    .conteiner-card{
+    .conteiner-card {
         padding-left: 14%;
         padding-right: 14%;
     }
@@ -268,18 +268,20 @@
         text-align: center;
     }
 
-    .box a{
+    .box a {
         margin: 3px;
     }
-.home-title{
-    font-size: 30px;
-    text-align: center;
-}
-    .nav_link{
+
+    .home-title {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .nav_link {
         font-size: 15px;
     }
 
-    .card-eventos-body p{
+    .card-eventos-body p {
         font-size: 22px;
     }
 }
