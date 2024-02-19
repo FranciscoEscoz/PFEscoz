@@ -1,7 +1,7 @@
 /* JUEGOS (MAIN) */
 
 main{
-    background-color: rgb(0, 0, 0);
+    background-color:$color-fondo-main;
 }
 
 .home {
@@ -33,11 +33,11 @@ main{
 .home-link li {
     list-style: initial;
     padding-top: 1%;
-    color: rgb(17, 0, 255);
+    color: $color-items;
 }
 
 .nav-link a{
-    color: white;
+    color: $color-white;
 }
 
 .home-link li a:hover {
@@ -53,13 +53,13 @@ main{
     &-home {
         display: flex;
         flex-direction: row;
-        border: 1px solid rgb(216, 214, 214);
+        border: 1px solid $color-white;
         margin-right: 8%;
         margin-top: 3%;
         border-radius: 30px;
         width: 100%;
         flex-wrap: nowrap;
-        background-color: rgb(0, 1, 33);
+        background-color: $color-fondo-blue;
     
         &-img {
             width: 30%;
