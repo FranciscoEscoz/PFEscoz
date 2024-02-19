@@ -5,7 +5,7 @@
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
     gap: 0 6%;
-    padding: 2% 12% 0 12%;
+    padding: 0 12% 0 12%;
     grid-template-areas:
         'titulo titulo titulo'
         'card-evento-1 card-evento-2 card-evento-3'
@@ -15,10 +15,8 @@
 
 
 .box-eventos {
-    display: flex;
+    @extend .flexible-column; 
     width: 100%;
-    justify-content: center;
-    align-items: center;
     margin: 2% 0;
 
     &-texto p {

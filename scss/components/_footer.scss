@@ -22,12 +22,11 @@ footer {
 }
 
 .box {
-    display: flex;
+    @extend .flexible-column;
     width: 100%;
     height: 100%;
     font-size: 35px;
-    justify-content: center;
-    align-items: center;
+    
 }
 
 .box a {
@@ -71,8 +70,6 @@ footer {
 }
 
 .contendor_ubicacion iframe {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
+    @extend .full-size-img;
     opacity: 70%;
 }

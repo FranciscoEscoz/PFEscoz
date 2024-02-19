@@ -6,7 +6,7 @@
 }
 
 .backgroung_boton {
-    background-color: white;
+    background-color: $color-white;
 }
 
 .d-flex {
@@ -21,7 +21,7 @@
 
 
 .nav-item a:hover {
-    background-color: rgb(82, 82, 82);
+    background-color:$color-grey;
     color: $color-letters-black;
     border: 1px solid black;
     // transition: 0.4s;

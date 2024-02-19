@@ -19,13 +19,10 @@ main{
     padding-right: 5%;
 
     &-img {
-        width: 60%;
-        height: 250px;
+        @include size(60%, 250px);
     
         img {
-            width: 100%;
-            height: 100%;
-            object-fit: cover;
+            @extend .full-size-img;
         }
     }
 }
@@ -62,13 +59,10 @@ main{
         background-color: $color-fondo-blue;
     
         &-img {
-            width: 30%;
-            height: 270px;
+            @include size(30%, 270px);
     
             img {
-                object-fit: cover;
-                width: 100%;
-                height: 100%;
+                @extend .full-size-img;
     
             }
         }

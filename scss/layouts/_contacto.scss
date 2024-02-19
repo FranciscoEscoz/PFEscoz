@@ -74,11 +74,10 @@ textarea {
 
 .contenedor_botton_enviar {
     display: inline-block;
-    width: 90%;
-    height: 35px;
+    @include size(90%, 35px);
+
 
     button {
-        width: 100%;
-        height: 100%;
+        @include size(100%, 100%);
     }
 }

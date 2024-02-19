@@ -154,8 +154,7 @@
     }
 
     .conteiner-card-home-img {
-        height: 300px;
-        width: 100%;
+        @include size(100%, 300px);
     }
 
     .conteiner-card-home {
