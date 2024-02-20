@@ -13,18 +13,23 @@
     padding-left: 0;
 }
 
+.logo-coinrush :hover{
+    transform: scale(1.2);
+    transition: 0.4s;
+}
+
+
 .nav-item a{
     border: 1px solid transparent;
     color: $color-white;
     font-weight: bold;
-}
 
-
-.nav-item a:hover {
-    background-color:$color-grey;
-    color: $color-letters-black;
-    border: 1px solid black;
-    // transition: 0.4s;
+    &:hover {
+        background-color:$color-grey;
+        color: $color-letters-black;
+        border: 1px solid black;
+        transition: 0.3s;
+    }
 }
 
 

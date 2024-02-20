@@ -121,16 +121,21 @@ footer {
   padding-left: 0;
 }
 
+.logo-coinrush :hover {
+  transform: scale(1.2);
+  transition: 0.4s;
+}
+
 .nav-item a {
   border: 1px solid transparent;
   color: rgba(255, 255, 255, 0.935);
   font-weight: bold;
 }
-
 .nav-item a:hover {
   background-color: rgb(128, 128, 128);
   color: rgb(0, 0, 0);
   border: 1px solid black;
+  transition: 0.3s;
 }
 
 .conteiner_nav {
