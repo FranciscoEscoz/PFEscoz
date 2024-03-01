@@ -596,9 +596,6 @@ main {
     padding-right: 12%;
     margin-bottom: 6%;
   }
-  .conteiner-home-img {
-    height: 310px;
-  }
   .conteiner-card-home-img {
     width: 100%;
     height: 300px;
@@ -629,9 +626,6 @@ main {
   .tarjeta-novedades-fecha {
     font-size: 15px;
   }
-  .conteiner-home-img {
-    height: 260px;
-  }
   .conteiner-card-home-text h2 {
     font-size: 25px;
   }
@@ -653,6 +647,29 @@ main {
   }
   input {
     font-size: 19px;
+  }
+  .home-title {
+    text-align: center;
+  }
+  .home {
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+  }
+  .conteiner-home-img {
+    width: 100%;
+    position: absolute;
+  }
+  .conteiner-home-img img {
+    width: 100%;
+  }
+  .conteiner-home {
+    padding: 0 7%;
+    width: 100%;
+    background: hsla(0, 0%, 0%, 0.66);
+    z-index: 2;
   }
 }
 @media (max-width: 600px) {
@@ -687,7 +704,6 @@ main {
   }
   .home-title {
     font-size: 30px;
-    text-align: center;
   }
   .nav_link {
     font-size: 15px;
