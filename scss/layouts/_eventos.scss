@@ -13,7 +13,6 @@
     ;
 }
 
-
 .box-eventos {
     @extend .flexible-column; 
     width: 100%;
@@ -23,8 +22,6 @@
         font-size: 25px;
     }
 }
-
-
 
 .card-eventos-body{
     background-color: $color-fondo-blue;
@@ -36,7 +33,6 @@
         margin: 8px 0 8px 10px;
     }
 }
-
 
 .e1 {
     grid-area: titulo;
